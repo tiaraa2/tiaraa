@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Toko Kue Manis</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0;
+        }
+        header {
+            background-color: #f08080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin: 15px;
+            width: 220px;
+            text-align: center;
+            padding: 16px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+        .product p {
+            margin: 0;
+            color: #888;
+        }
+        .buy-btn {
+            background-color: #ff7f50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .buy-btn:hover {
+            background-color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Toko Kue Manis</h1>
+        <p>Segar, Enak, dan Manis Setiap Hari!</p>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/a7/42/24/a74224d0563d83ba9ae84369286d94c5.jpg" alt="Brownies">
+            <h3>Brownies Coklat</h3>
+            <p>Rp 35.000</p>
+            <button class="buy-btn">Beli</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/f5/67/b3/f567b3b1df99c5176740e13b86ec73f8.jpg" alt="Cheesecake">
+            <h3>Cheesecake Brownies</h3>
+            <p>Rp 45.000</p>
+            <button class="buy-btn">Beli</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/e3/c5/e4/e3c5e400c981309a70500ce0da99bf14.jpg" alt="Tart Buah">
+            <h3>Tart Buah Mini</h3>
+            <p>Rp 50.000</p>
+            <button class="buy-btn">Beli</button>
+        </div>
+    </div>
+</body>
+</html>
